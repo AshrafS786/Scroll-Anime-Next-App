@@ -10,9 +10,9 @@ import {
   AiFillGithub,
   AiFillTwitterCircle,
   AiFillInstagram,
+  AiFillFacebook,
   AiFillLinkedin,
 } from "react-icons/ai";
-import { BsDiscord } from "react-icons/bs";
 
 function Footer() {
   return (
@@ -32,12 +32,22 @@ function Footer() {
             Blockchain Technology.
           </p>
           <div className="socials">
-            <AiFillGithub />
-            <AiFillTwitterCircle />
-            <AiFillInstagram />
-            <BsDiscord />
-            
-            <a href="https://www.linkedin.com/in/ashraf-ali-50b374267/"><AiFillLinkedin  /></a>
+            <a href="https://github.com/AshrafS786">
+              <AiFillGithub />
+            </a>
+            <a href="https://x.com/ASHRAFALI521765?t=hJZxEH9s-REPvAPrykpnuw&s=09">
+              <AiFillTwitterCircle />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100030118150796&mibextid=ZbWKwL">
+              <AiFillFacebook />
+            </a>
+            <a href="https://www.instagram.com/mr_ali_escr_5203/?next=%2F">
+              <AiFillInstagram />
+            </a>
+
+            <a href="https://www.linkedin.com/in/ashraf-ali-50b374267/">
+              <AiFillLinkedin />
+            </a>
           </div>
         </div>
         <div className="links">
@@ -90,7 +100,7 @@ const FooterStyled = styled.footer`
 
       .input input {
         width: 100%;
-        padding: .8rem 0.7rem;
+        padding: 0.8rem 0.7rem;
         border-radius: 8px;
         background-color: #161616;
         border: 1px solid var(--color-border);
